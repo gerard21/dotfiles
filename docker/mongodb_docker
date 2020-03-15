@@ -1,0 +1,6 @@
+Create server:
+docker run -it --name mongodb -d mongo
+
+Execute client:
+docker run -it --link=mongodb:mongo mongo /bin/bash
+env command (show configuration)

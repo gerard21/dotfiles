@@ -1,0 +1,5 @@
+	
+* Init new container (mysql example): docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:8.0.19
+* Start container: docker container start mysql
+* connect inside container: docker exec -it mysql(conatiner_name) mysql(new service inside container) -p
+
