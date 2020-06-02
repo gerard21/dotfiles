@@ -1,0 +1,8 @@
+ Kubernetes commands:
+
+	* kubectl get namespaces (envirionments)
+	* kubectl edit deployment exercise-service 
+	* kubectl port-forward svc/mysql-dbservices 3306:3306 -n staging
+	* kubectl get pods -n staging
+
+	* kubens <namespace>
